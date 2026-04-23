@@ -123,15 +123,7 @@ Note: Due to class imbalance, precision, recall, and F1 score are more important
 ## Notes
 - No missing values in the dataset
 - Stratified splitting prevents distribution bias
-- Class imbalance is handled using model class weights
-
----
-
-## Future Improvements
-- Apply resampling techniques such as SMOTE or undersampling
-- Perform hyperparameter tuning (GridSearchCV or RandomizedSearchCV)
-- Use advanced models such as XGBoost or LightGBM
-- Deploy the model as a real-time fraud detection system
+- Class imbalance is handled using model class
 
 ---
 
